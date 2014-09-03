@@ -1,0 +1,35 @@
+.container{
+	padding-top: 2%;
+}
+
+#override_body{
+	width: 75%;
+	display: block;
+	margin: 0 auto;
+}
+
+ul#nav_override{
+	margin: 2% 0 4% 0;
+	font-weight: bold;
+}
+
+ul#nav_override a{
+	transition: all 0.4s ease 0s;
+}
+
+#um_logo_override{
+	position: relative;
+	top: 34px;
+	right: 30px;
+}
+
+.footer a{
+	text-decoration: none;
+	color: #AAA;
+	transition: all 0.4s ease 0s;
+	outline: 0;
+}
+
+.footer a:hover{
+	color: #428BCA;
+}
