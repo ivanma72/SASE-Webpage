@@ -1,7 +1,3 @@
-.container{
-	padding-top: 2%;
-}
-
 #override_body{
 	width: 80%;
 	display: block;
@@ -18,10 +14,15 @@ ul#nav_override a{
 	outline: 0;
 }
 
+#sase_logo_override{
+	margin: 5%;
+}
+
 #um_logo_override{
 	position: relative;
 	top: 34px;
 	right: 30px;
+	margin: 5%;
 }
 
 .footer a{
