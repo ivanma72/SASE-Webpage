@@ -12,6 +12,8 @@
     <link rel="stylesheet" type="text/css" href="css/index_override.css">
     <link rel="stylesheet" type="text/css" href="css/aboutus_override.css">
     <link rel="stylesheet" type="text/css" href="css/contactus_override.css">
+    <!-- Full Calendar -->
+    <link rel="stylesheet" type="text/css" href="css/fullcalendar.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,39 +38,22 @@
         </div>       
 
         <ul id="nav_override"class="nav nav-pills nav-justified">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about_us.html">About Us</a></li>
-          <li><a href="#">Committees</a></li>
-          <li><a href="#">Calendar</a></li>
-          <li><a href="#">Photo Gallery</a></li>
-          <li><a href="sponsors.html">Sponsors</a></li>
-          <li><a href="#">Board</a></li>
-          <li><a href="#">Contact Us</a></li>
-      </ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="#">Committees</a></li>
+                <li><a href="#">Calendar</a></li>
+                <li><a href="#">Photo Gallery</a></li>
+                <li><a href="sponsors.html">Sponsors</a></li>
+                <li><a href="#">Board</a></li>
+                <li><a href="#">Contact Us</a></li>
+        </ul>
 
-      <div id="override_body">
-        <section class="section_style">
-            <h2>Contact Us</h2>
-            <p>If you have any questions 
-            regarding our organization, events, sponsors, etc. Please feel free 
-            to contact us at <a href="mailto:sase.board@umich.edu">
-            sase.board@umich.edu</a></p>
-        </section>
 
-        <section class="section_style">
-            <h2>Interested in becoming a member?</h2>
-            <p>Come to any of our meetings or please don't hesitate to contact 
-            us via e-mail at <a href="mailto:sase.board@umich.edu">
-            sase.board@umich.edu</a></p>
-        </section>
-
-        <section class="section_style">
-            <h2>Problems with the website or broken links?</h2>
-            <p>If you are having any trouble with the website, please contact our webmaster at <a href="mailto:ivanma@umich.edu">ivanma@umich.edu</a></p>
-        </section>
-        
+        <div id="override_body">
+            <div id="calendar"></div>
         </div>
-    
+      
+
     </div>
 
     <div class="footer">
@@ -89,8 +74,16 @@
             <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
+            <!--Moment.js -->
+            <script src="js/moment.min.js"></script>
+
             <!-- Include all compiled plugins (below), or include individual files as needed -->
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
             
+
+            <script src="js/fullcalendar.min.js"></script>
+
+            <script src="js/calendar.js"></script>
+
         </body>
         </html>
